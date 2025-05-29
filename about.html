@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - USMLEInkspire</title>
+ <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Inter:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo-text">
+      <a href="index.html"><span class="logo-left">USMLE</span><span class="logo-right"> Inkspire</span></a>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="#">Clinical Rotations</a></li>
+      <li><a href="#">Research</a></li>
+      <li><a href="#">Match Guidance</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- About Page Content -->
+  <section class="about-section">
+    <div class="about-content">
+      <h4 class="about-subheading">ABOUT US</h4>
+      <h2 class="about-title">USMLEInkspire: Igniting Your Path to US Residency</h2>
+      <p>
+        At USMLEInkspire, we envision a future where every IMG and USMG has the tools, mentorship, and experience to confidently match into a US medical residency program. Our goal is not just to help you apply — it’s to help you thrive.
+      </p>
+      <p>
+        <strong>Our Vision:</strong> To be the most trusted partner for medical graduates, recognized for integrity, success, and innovation. We provide end-to-end services that position applicants competitively and ethically in the residency match process.
+      </p>
+      <p>
+        <strong>Our Mission:</strong> We empower aspiring physicians with refined application documents, polished interview skills, structured guidance, and unique CV-building opportunities like clinical research, volunteering, and observerships.
+      </p>
+      <a href="services.html" class="about-btn">Explore Our Services</a>
+    </div>
+
+    <div class="about-image">
+      <img src="images/about.jpg" alt="Team Working Together" />
+    </div>
+  </section>
+
+ <footer class="footer-modern dark">
+  <div class="footer-container">
+    <div class="footer-left">
+      <div class="footer-logo">
+        <img src="images/logo12.png" alt="USMLEInkspire Logo" />
+                <p class="footer-tagline">Empowering Your Residency Journey</p>
+      </div>
+    </div>
+
+    <div class="footer-contact-group">
+      <div class="footer-contact">
+        <p><i class="fas fa-map-marker-alt"></i> Mid-Baneshwor, Kathmandu-10, Nepal</p>
+        <p><i class="fas fa-phone"></i> +977 9823997787</p>
+        <p><i class="fas fa-envelope"></i> usmleinkspire@gmail.com</p>
+      </div>
+
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/usmleinkspire"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom dark">
+    <p>© 2025 USMLEInkspire. All rights reserved.</p>
+    <div class="footer-links-bottom">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+    </div>
+  </div>
+</footer>
+
+
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("navLinks");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  </script>
+
+</body>
+</html>
